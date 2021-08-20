@@ -1,0 +1,25 @@
+{
+	"name" : "jcabanillas/yii2-simple-loading",
+	"description" : "Simple Loading",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"loading"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Javier Cabanillas",
+			"email" : "jcabanillas@rubiko.mx",
+			"homepage" : "https://github.com/jcabanillas"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : ">2.0.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"jcabanillas\\simpleloading\\" : ""
+		}
+	}
+}
